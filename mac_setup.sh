@@ -112,6 +112,9 @@ exec $SHELL -l
 # Install silver searcher (a better version of grep available as the command `ag`).
 brew install the_silver_searcher
 
+# Install tree (to allow visualizing the directory structure)
+brew install tree
+
 ###################################
 # Setup the Python programming language.
 ###################################
