@@ -215,3 +215,11 @@ JAVA_SETUP
 # Refresh for changes to take effect.
 exec $SHELL -l
 
+###################################
+# Setup case sensitive volume for coding purposes.
+###################################
+
+diskutil apfs addVolume disk3 'Case-sensitive APFS' code -quota 50g
+
+# Create a link so that we can easily access the volume.
+ln -s /Volumes/code ~/code
