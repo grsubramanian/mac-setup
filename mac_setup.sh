@@ -223,3 +223,14 @@ diskutil apfs addVolume disk3 'Case-sensitive APFS' code -quota 50g
 
 # Create a link so that we can easily access the volume.
 ln -s /Volumes/code ~/code
+
+###################################
+# Setup Go (game) software.
+###################################
+
+# MANUAL INSTRUCTION: Install KGS client from http://files.gokgs.com/javaBin/cgoban.dmg
+# MANUAL INSTRUCTION: Install Pandanet client from https://pandanet-igs.com/gopanda2/download/GoPanda2.dmg
+
+# Install katrain (KataGo AI combined with a nice UI).
+brew install katrain
+
