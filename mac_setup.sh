@@ -222,6 +222,11 @@ exec $SHELL -l
 brew install gradle
 
 ###################################
+# Setup node (for running Javascript code).
+###################################
+brew install node
+
+###################################
 # Setup case sensitive volume for coding purposes.
 ###################################
 
@@ -229,6 +234,21 @@ diskutil apfs addVolume disk3 'Case-sensitive APFS' code -quota 50g
 
 # Create a link so that we can easily access the volume.
 ln -s /Volumes/code ~/code
+
+###################################
+# Setup AWS tools.
+###################################
+curl https://awscli.amazonaws.com/AWSCLIV2.pkg -o ~/Downloads/AWSCLIV2.pkg
+sudo installer -pkg ~/Downloads/AWSCLIV2.pkg -target /
+
+# Setup Cloud Development Kit (CDK).
+npm install -g aws-cdk
+
+###################################
+# Setup fancy editors (for serious coding).
+###################################
+
+# MANUAL INSTRUCTION: Install VS Code from https://code.visualstudio.com .
 
 ###################################
 # Setup Go (game) software.
