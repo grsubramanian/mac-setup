@@ -253,6 +253,9 @@ npm install -g aws-cdk
 
 # MANUAL INSTRUCTION: Install VS Code from https://code.visualstudio.com .
 
+# MANUAL INSTRUCTION: Follow instructions at https://stackoverflow.com/questions/29971053/how-to-open-visual-studio-code-from-the-command-line-on-osx
+#                     to get the command `code` working on the terminal. This command can be used to invoke VS code from the terminal.
+
 ###################################
 # Setup Go (game) software.
 ###################################
