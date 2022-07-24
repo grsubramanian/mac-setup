@@ -58,6 +58,9 @@ exec $SHELL -l
 git config --global user.name "Gokul Ramanan Subramanian"
 git config --global user.email "gokul.r.subramanian@gmail.com"
 
+# The default git branch is called "master", which is non-inclusive, so we use "main" instead.
+git config --global init.defaultBranch main
+
 ###################################
 # Setup homebrew.
 ###################################
