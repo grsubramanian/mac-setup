@@ -218,6 +218,9 @@ JAVA_SETUP
 # Refresh for changes to take effect.
 exec $SHELL -l
 
+# Install gradle (build system for Java).
+brew install gradle
+
 ###################################
 # Setup case sensitive volume for coding purposes.
 ###################################
